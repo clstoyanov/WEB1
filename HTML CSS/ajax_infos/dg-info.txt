@@ -1,0 +1,7 @@
+Days Gone is an upcoming action-adventure survival horror video game developed by SIE Bend Studio and published by Sony Interactive Entertainment for PlayStation 4. The game uses Unreal Engine 4.
+Initial release date: April 26, 2019
+Developer: SIE Bend Studio
+Composer(s): Nathan Whitehead
+Publisher: Sony Interactive Entertainment
+Engine: Unreal Engine
+Platform: PlayStation 4

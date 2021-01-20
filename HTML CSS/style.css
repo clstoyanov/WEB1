@@ -1,0 +1,1010 @@
+  * {
+  font-family: 'Graduate', cursive;
+  font-weight: normal;
+}
+
+body{
+  background-image: url("bluebi1.jpg");
+  background-size: cover;
+  margin: 0px;
+}
+
+  /*Nav bar*/
+  nav {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 150px;
+  }
+  
+  /*Nav list styling*/
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+  /*Nav list element*/
+  nav ul li {
+    display: inline-block;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+  /*Dropdown button*/
+  .dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+
+  /*Positioning of dropdown content*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /*Dropdown Design*/
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    background-color: #f1f1f1;
+  }
+
+  /*Links in dropdown*/
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    font-size: 25px;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {
+    background-color:white;
+    color: blue;
+  }
+
+  /*Search bar*/
+  .searchbar input[type=text] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 25px;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  /*Cart button design*/
+  .cartbtn {
+    display: flex;
+    background-color: blue;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+
+  .cartbtn img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .cartbtn:hover{
+    background-color: white;
+  }
+
+  .cartbtn img:hover{
+    content: url('shopping-cart-blue.png');
+  }
+
+  .login-register-btn{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+  .login-register-btn:hover{
+    background-color: white;
+    color: blue;
+  }
+
+  .login-register-a{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .login-register-a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+  }
+
+  .main{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+
+  .row{
+    margin-top: 150px;
+  }
+
+  .main h1{
+    font-size: 35px;
+    display: inline;
+    margin-left: 10px;
+  }
+
+  .main h2{
+    color: black;
+    font-size: 25px;
+    margin: 20px 0px 20px 20px;
+  }
+
+  .main h3{
+    font-size: 22px;
+    color: black;
+    border: 1px solid;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+    padding: 5px;
+    margin: 5px 20px;
+  }
+
+  .buybtn{
+    font-size: 20px;
+    color: white; 
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px 25px 5px 20px;
+    border: 2px solid black;
+    margin: 5px 25px;
+  }
+
+  .buybtn:hover{
+    background-color: white;
+    color: blue;
+  }
+
+  .preorderbtn{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid black;
+    margin: 5px 25px;
+  }
+
+.preorderbtn:hover{
+    background-color: white;
+    color: blue;
+  }
+
+#re2-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#rdr2-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#bf5-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#fh4-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#f76-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#d2-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#mk11-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#anth-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#fcnd-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#dg-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#skyrim-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#gta5-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#w3-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#jc4-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+#nba-info{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+  #game-more-info{
+    font-family: 'Graduate', cursive;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+  }
+
+  #game-more-info:hover{
+    background-color: white;
+    color: blue;
+  }
+
+  .main h5{
+    font-size: 18px;
+    margin-left: 20px;
+    color: black;
+  }
+
+  .new-releases{
+    width: 33%;
+    margin-right: auto;
+    margin-left: 15px;
+  }
+
+  .flex-nr{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    margin: 40px 10px;
+  }
+
+  .flex-nr-pic img{
+    border: 1px solid black;
+  }
+
+  .flex-game-info{
+    display: block; 
+  }
+
+  .upcoming-games{
+    width: 33%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .flex-ug{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+    margin: 40px 10px;
+  }
+
+  .flex-ug-pic img{
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+
+  .best-sellers{
+    width: 33%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .flex-bs{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    margin: 40px 10px;
+  }
+
+  .flex-bs-pic img{
+    border: 1px solid black;
+  }
+
+  .flex-spade{
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .price-buy{
+    display: flex;
+  }
+
+.footer{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.footer h1{
+  color: black;
+  padding-left: 10px;
+}
+
+.news{
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  outline-width: 2px;
+  outline-style: solid;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.article{
+  border: 1px solid black;
+  outline-width: 1px;
+  outline-style: solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.partners-about-copyright{
+  width: 50%;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.partners{
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  outline-width: 2px;
+  outline-style: solid;
+}
+
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.logos img{
+  margin: 10px;
+}
+
+.about-copyright{
+  display: inline-flex;
+  width: 100%;
+}
+
+.about-copyright p{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.about{
+  background-color: white;
+  margin-right: 10px;
+  border: 1px solid black;
+  outline-width: 2px;
+  outline-style: solid;
+  width: 20%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.about p{
+  font-size: 25px;
+}
+
+.copyright{
+  background-color: white;
+  border: 1px solid black;
+  outline-width: 2px;
+  outline-style: solid;
+  width: 80%;
+}
+
+.copyright p{
+  padding-top: 80px;
+  padding-left: 80px;
+}
+  
+
+
+
+
+/* Profile */
+
+.account{
+  display: inline-block;
+}
+
+.heading{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+
+.heading h2{
+  color: white;
+  font-size: 45px;
+}
+
+.heading h3{
+  color: black;
+  font-size: 25px;  
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.orderhistory{
+margin-right: 250px;
+}
+
+.logout{
+  margin-left: 300px;
+}
+
+.profile-box{
+  display: flex;
+  width: 74.5%;
+  margin-left: 350px;
+  padding: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.profile-info{
+  display: block;
+  width: 50%;
+}
+
+.profile-info input{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.savebtn{
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  margin-left: 470px;
+}
+
+.savebtn:hover{
+  background-color: white;
+  color: blue;
+}
+
+.profile-pic{
+  width: 50%;
+}
+
+.profile-pic img{
+  margin-left: 70px;
+  border: 1px solid black;
+}
+
+
+/* Login page */
+
+.login{
+  margin-left: 550px;
+}
+
+.login-box{
+  display: flex;
+  width: 40%;
+  margin-left: 730px;
+  padding: 30px 40px 50px 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.login-info{
+  display: block;
+  font-size: 20px;
+}
+
+.login-info input{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-form button{
+  font-family: 'Graduate', cursive;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+#login-form button:hover {
+  background-color: white;
+  color: blue;
+}
+
+.forgotpw{
+  text-align: center;
+}
+
+.register-redirect{
+  text-align: center;
+}
+
+.register-now{
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.register-now:hover{
+  background-color: white;
+  color: blue;
+}
+
+/*Forgotten password page*/
+
+.forgotpwd{
+  margin-left: 340px;
+}
+
+.forgotpwd-start-box{
+  display: flex;
+  width: 67%;
+  margin-left: 500px;
+  padding: 30px 40px 50px 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.forgotpwd-info{
+  display: block;
+  font-size: 20px;
+}
+
+.forgotpwd-info p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -20px;
+}
+
+.forgotpwd-info input{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#forgotpwd-form{
+  margin-left: 230px;
+}
+
+#forgotpwd-form button{
+  font-family: 'Graduate', cursive;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+#forgotpwd-form button:hover {
+  background-color: white;
+  color: blue;
+}
+
+/* Register page */
+
+.register{
+  margin-left: 490px;
+}
+
+.register-box{
+  display: flex;
+  width: 40%;
+  margin-left: 720px;
+  padding: 30px 50px 50px 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.register-info{
+  display: block;
+  font-size: 20px;
+}
+
+.register-info input{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#register-form button{
+  font-family: 'Graduate', cursive;
+  font-size: 25px;
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 40px;
+}
+
+#register-form button:hover{
+  background-color: white;
+  color: blue;
+}
+
+/* About us page */
+
+.about-page{
+  display: inline-block;
+}
+
+.about-us{
+  margin-left: 420px;
+}
+
+.about-main{
+  display: inline-flex;
+  width: 100%;
+}
+
+.goals-money{
+  width: 20%;
+  margin-left: 20px;
+}
+
+.goals-money ul{
+  list-style-type: none;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.goals-money h1{
+  font-size: 30px;
+  color: black;
+}
+
+.goals-money p{
+  color: black;
+}
+
+.money{
+  background-color: white;
+  border: 1px solid black;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 100px;
+  margin-left: 100px;
+}
+
+.money h2{
+  font-size: 25px;
+}
+
+.staffpic-text{
+  width: 70%;
+  margin-left: 70px;
+}
+
+.about-page img{
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.about-text{
+  margin-right: 530px;
+}
+
+.about-text p{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+/* Contact Page */
+
+.contact-page{
+  display: inline-block;
+  width: 100%
+}
+
+.contact-title{
+  margin-left: 440px;
+}
+
+.contact-main{
+  display: flex;
+  margin-left: 220px;
+}
+
+.contact-info{
+  display: block;
+  width: 40%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.contact-page h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+.contact-info h2{
+  font-size: 20px;
+}
+
+.contact-form{
+  display: block;
+  width: 40%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+.contact-form input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 150px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.contact-form ::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: darkslategray;
+}
+
+/* I guessed this :D */
+.contact-form .contact-msg{ 
+  margin-left: 50px;
+  margin-top: 50px;
+  word-break: break-all;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.contact-form .contact-submit{
+  border-radius: 10px;
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 40%;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.contact-form .contact-submit:hover{
+  background-color: white;
+  color: blue;
+}
+
+
+/* Order History page */
+
+.ohistory-page{
+  display: inline-block;
+  width: 100%
+}
+
+.ohistory-title{
+  margin-left: 420px;
+}
+
+.ohistory-main{
+  display: block;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-color: white;
+  border: 1px solid black;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.ohistory-main-heading{
+  display: flex;
+  margin-left: 50px;
+}
+
+.ohistory-main h1{
+  display: flex;
+  font-size: 30px;
+  margin-right: 200px;
+}
+
+.ohistory-main h2{
+  font-size: 25px;
+  margin-right: 280px;
+}
+
+.ohistory-ex1{
+  border: 1px solid black;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.ohistory-show{
+  border-radius: 10px;
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.ohistory-show:hover{
+  background-color: white;
+  color: blue;
+}
+
+.ohistory-ex-head{
+  border: 1px solid black;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ohistory-ex2{
+  border: 1px solid black;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/*#games-ex2{
+  display: none;
+}
+
+#games-ex3{
+  display: none;
+}*/
+
+.game-ex{
+  display: flex;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 40px;
+}
+
+.game-ex img{
+  border: 1px solid black;
+}
+
+.game-ex h3{
+  font-size: 25px;
+  padding-top: 70px;
+  padding-left: 350px;
+}
+
+.ohistory-hide{
+  border-radius: 10px;
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 700px;
+  margin-bottom: 40px;
+}
+
+.ohistory-hide:hover{
+  background-color: white;
+  color: blue;
+}
+
+.ohistory-ex3{
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.game-ex-S{
+  display: flex;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 40px;
+}
+
+.game-ex-S h3{
+  font-size: 25px;
+  padding-top: 70px;
+  padding-left: 250px;
+}

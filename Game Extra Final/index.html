@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AceKeys: Buy Modern Games for Cheap</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="description" content="AceKeys Homepage">
+    <meta name="keywords" content="Games,Keys,AceKeys">
+    <meta name="author" content="Christian Stoyanov and Alexander Petrov">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <head>
+        <nav>
+            <ul>
+                <li>
+                    <div class="logo">
+                        <a href="index.html"><img src="AceKeysLogo.png" alt="AceKeysLogo" width="127" height="80"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">GAMES</button>
+                        <div class="dropdown-content">
+                            <a href="pcgames.html">PC Games</a>
+                            <a href="psgames.html">PS Games</a>
+                            <a href="xboxgames.html">Xbox Games</a>
+                            <a href="switchgames.html">Switch Games</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">ACCOUNT</button>
+                        <div class="dropdown-content">
+                            <a href="login.html">Log in</a>
+                            <a href="profile.html">Profile</a>
+                            <a href="orderHistory.html">Order History</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search" name="search">
+                    </div>
+                </li>
+                <li>
+                    <div class="cart">
+                        <button class="cartbtn">
+                            <a href="cart.html">
+                                <img src="cart.png" alt="Shopping Cart"></a>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </head>
+
+    <div class="main">
+        <div class="row">
+            <div class="new-releases">
+                <h1>New Releases</h1>
+                <div class="flex-nr">
+                    <div class="flex-nr-pic">
+                        <img src="Game Covers/resident evil 2.png" alt="Resident Evil 2 Pic" width="151" height="165">
+                    </div>
+                    <div class="flex-nr-info">
+                        <h2>Resident Evil 2</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="re2-info">
+                            <button id="game-more-info" type="button" onclick="loadRE2Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-nr">
+                    <div class="flex-nr-pic">
+                        <img src="Game Covers/Red_Dead_Redemption_II.jpg" alt="Red Dead Redemption II" width="151"
+                            height="186">
+                    </div>
+                    <div class="flex-nr-info">
+                        <h2>Red Dead Redemption II</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="rdr2-info">
+                            <button id="game-more-info" type="button" onclick="loadRDR2Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-nr">
+                    <div class="flex-nr-pic">
+                        <img src="Game Covers/Battlefield_V.jpg" alt="Battlefield V" width="151" height="206">
+                    </div>
+                    <div class="flex-nr-info">
+                        <h2>Battlefield V</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="bf5-info">
+                            <button id="game-more-info" type="button" onclick="loadBF5Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-nr">
+                    <div class="flex-nr-pic">
+                        <img src="Game Covers/Forza_Horizon_4.jpg" alt="Forza Horizon 4" width="151" height="192">
+                    </div>
+                    <div class="flex-nr-info">
+                        <h2>Forza Horizon 4</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="fh4-info">
+                            <button id="game-more-info" type="button" onclick="loadFH4Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-nr">
+                    <div class="flex-nr-pic">
+                        <img src="Game Covers/Fallout_76_cover.jpg" alt="Fallout 76" width="151" height="185">
+                    </div>
+                    <div class="flex-nr-info">
+                        <h2>Fallout 76</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="f76-info">
+                            <button id="game-more-info" type="button" onclick="loadF76Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="upcoming-games">
+                <h1>Upcoming Games</h1>
+                <div class="flex-ug">
+                    <div class="flex-ug-pic">
+                        <img src="Game Covers/division 2.jpg" alt="Division 2" width="151" height="171">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Tom Clancy's The Division 2</h2>
+                        <h5>March 15th 2019</h5>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="preorderbtn" type="button">PREORDER</button>
+                        </div>
+                        <div id="d2-info">
+                            <button id="game-more-info" type="button" onclick="loadD2Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-ug">
+                    <div class="flex-ug-pic">
+                        <img src="Game Covers/Mortal_Kombat_11.png" alt="Mortal Kombat 11" width="151" height="181">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Mortal Kombat 11</h2>
+                        <h5>April 23rd 2019</h5>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="preorderbtn" type="button">PREORDER</button>
+                        </div>
+                        <div id="mk11-info">
+                            <button id="game-more-info" type="button" onclick="loadMK11Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-ug">
+                    <div class="flex-ug-pic">
+                        <img src="Game Covers/anthem.jpg" alt="Anthem" width="151" height="226.5">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Anthem</h2>
+                        <h5>February 22nd 2019</h5>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="preorderbtn" type="button">PREORDER</button>
+                        </div>
+                        <div id="anth-info">
+                            <button id="game-more-info" type="button" onclick="loadANTHDoc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-ug">
+                    <div class="flex-ug-pic">
+                        <img src="Game Covers/FC_New_Dawn_cover_art.jpg" alt="Far Cry New Dawn" width="151"
+                            height="165.5">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Far Cry New Dawn</h2>
+                        <h5>February 15th 2019</h5>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="preorderbtn" type="button">PREORDER</button>
+                        </div>
+                        <div id="fcnd-info">
+                            <button id="game-more-info" type="button" onclick="loadFCNDDoc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-ug">
+                    <div class="flex-ug-pic">
+                        <img src="Game Covers/Days_Gone.jpg" alt="Days Gone" width="151" height="165.5">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Days Gone</h2>
+                        <h5>April 26th 2019</h5>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="preorderbtn" type="button">PREORDER</button>
+                        </div>
+                        <div id="dg-info">
+                            <button id="game-more-info" type="button" onclick="loadDGDoc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-sellers">
+                <h1>Best Sellers</h1>
+                <div class="flex-bs">
+                    <div class="flex-spade">
+                        <img src="bs_spades/bs_1.jpg" alt="bs 1">
+                    </div>
+                    <div class="flex-bs-pic">
+                        <img src="Game Covers/The_Elder_Scrolls_V_Skyrim_cover.png" alt="Skyrim" width="151"
+                            height="206.5">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>The Elder Scrolls V: Skyrim</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$14.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="skyrim-info">
+                            <button id="game-more-info" type="button" onclick="loadSKYRIMDoc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-bs">
+                    <div class="flex-spade">
+                        <img src="bs_spades/bs_2.jpg" alt="bs 2">
+                    </div>
+                    <div class="flex-bs-pic">
+                        <img src="Game Covers/Grand_Theft_Auto_V.png" alt="GTA V" width="151" height="185.5">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Grand Theft Auto V</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$29.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="gta5-info">
+                            <button id="game-more-info" type="button" onclick="loadGTA5Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-bs">
+                    <div class="flex-spade">
+                        <img src="bs_spades/bs_3.jpg" alt="bs 1">
+                    </div>
+                    <div class="flex-bs-pic">
+                        <img src="Game Covers/Witcher_3_cover.jpg" alt="Witcher 3" width="151" height="214">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>The Witcher 3: Wild Hunt</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$29.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="w3-info">
+                            <button id="game-more-info" type="button" onclick="loadW3Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-bs">
+                    <div class="flex-spade">
+                        <img src="bs_spades/bs_4.jpg" alt="bs 1">
+                    </div>
+                    <div class="flex-bs-pic">
+                        <img src="Game Covers/Just_Cause_4_cover.jpg" alt="Just Cause 4" width="151" height="191">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>Just Cause 4</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$59.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="jc4-info">
+                            <button id="game-more-info" type="button" onclick="loadJC4Doc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-bs">
+                    <div class="flex-spade">
+                        <img src="bs_spades/bs_5.jpg" alt="bs 1">
+                    </div>
+                    <div class="flex-bs-pic">
+                        <img src="Game Covers/NBA_2K19_cover_art.jpg" alt="NBA 2K19" width="151" height="183">
+                    </div>
+                    <div class="flex-game-info">
+                        <h2>NBA 2K19</h2>
+                        <div class="price-buy">
+                            <div class="price">
+                                <h3>$49.99</h3>
+                            </div>
+                            <button class="buybtn" type="button">BUY</button>
+                        </div>
+                        <div id="nba-info">
+                            <button id="game-more-info" type="button" onclick="loadNBADoc()">More Info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="news">
+                <h1>News:</h1>
+                <div class="article">
+                    <h5>Anthem: BioWare's Big Gamble</h5>
+                    <p>With Anthem's impending release on PC, PS4, and Xbox One, we explore the pitfalls of the
+                        "games-as-service" genre, and the risks of BioWare's new loot shooter.</p>
+                    <p><a href="https://www.gamespot.com/videos/anthem-biowares-big-gamble/2300-6448297/">Read
+                            more</a></p>
+                </div>
+                <div class="article">
+                    <h5>The Division 2's Best New Features</h5>
+                    <p>Here are the new features we're most excited about after The Division 2's beta.</p>
+                    <p><a href="https://www.gamespot.com/videos/the-division-2s-best-new-features/2300-6448299/">Read
+                            more</a></p>
+                </div>
+
+            </div>
+            <div class="partners-about-copyright">
+                <div class="partners">
+                    <h1>Partners:</h1>
+                    <div class="logos">
+                        <img src="Partner Logos\1024px-Electronic-Arts-Logo.png" alt="EA" width="75" height="75">
+                        <img src="Partner Logos\1024px-IDEAL_Logo.png" alt="iDEAL" width="87" height="75">
+                        <img src="Partner Logos\1280px-Maestro_2016.png" alt="Maestro" width="96" height="75">
+                        <img src="Partner Logos\PayPal.png" alt="PayPal" width="150" height="40">
+                        <img src="Partner Logos\Visa_2014_logo_detail.svg.png" alt="Visa" width="92" height="30">
+                        <img src="Partner Logos\Bethesda_Game_Studios_logo.png" alt="Bethesda" width="160" height="75">
+                        <img src="Partner Logos\Rockstar_Games_Logo.png" alt="Rockstar" width="82" height="75">
+                    </div>
+                </div>
+                <div class="about-copyright">
+                    <div class="about">
+                        <p><a href="about-us.html">About us</a></p>
+                        <p><a href="contact.html">Contact</a></p>
+                    </div>
+                    <div class="copyright">
+                        <p>All content is property of AceKeys.com©</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

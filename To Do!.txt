@@ -1,0 +1,6 @@
+connect games database to site
+shopping cart functionality
+forgotten password page
+add messages to successful login/logout
+style the login and register success/fail messages
+search function

@@ -1,0 +1,7 @@
+Anthem is an online multiplayer action role-playing video game developed by BioWare and published by Electronic Arts. The game was released worldwide for Microsoft Windows, PlayStation 4 and Xbox One on February 22, 2019.
+Initial release date: February 22, 2019
+Engine: Frostbite 3
+Composer: Sarah Schachner
+Publisher: Electronic Arts
+Developers: BioWare, Motive Studios
+Platforms: PlayStation 4, Xbox One, Microsoft Windows
